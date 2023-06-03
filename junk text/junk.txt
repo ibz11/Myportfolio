@@ -1,0 +1,20 @@
+<!----Timeline-->
+<!-- <div  class="mt-5 container text-center">
+    <div class="mt-5 row">
+      <div  class="hidden col-8">
+        <h2 style="font-size:42px;color:rgb(4, 235, 43);"> 2010-2015 </h2>
+        <p style="font-size:30px">Studied primary schooling at </br>Nyali primary and completed KCPE</p>
+        </div>
+        <div  class="col-3"></div>
+        </div>
+      </div> -->
+<!-- 
+      <div  class="mt-1 container text-center">
+        <div class="mt-5 row">
+          
+            <div  class="hidden col-12">
+                <h2 style="font-size:42px;color:rgb(4, 235, 43);"> 2015-2019</h2>
+                <p style="font-size:30px">Studied High School at </br>Light Academy and completed KCSE</p>
+            </div>
+            </div>
+          </div> -->

@@ -1,0 +1,50 @@
+[
+    {
+        "title":"Netflix Homepage clone",
+        "image":"./assets/images/netflix.png",
+        "deployed":false,
+        "code":"https://github.com/ibz11/Netflix-homepage",
+        "website":""
+    },
+    {
+        "title":"Google login clone",
+        "image":"./assets/images/googlelogin.png",
+        "deployed":false,
+        "code":"https://github.com/ibz11/google-login",
+        "website":""
+    },
+    {
+        "title":"Github login clone",
+        "image":"./assets/images/github-login.png",
+        "deployed":false,
+        "code":"https://github.com/ibz11/github-login",
+        "website":""
+    },
+    {
+        "title":"Google Search clone",
+        "image":"./assets/images/googlehome.png",
+        "deployed":false,
+        "code":"https://github.com/ibz11/google-home",
+        "website":""
+    },
+    {
+        "title":"Google search Version 2",
+    
+        "image":"./assets/images/googlehomev2.png",
+        "code":"https://github.com/ibz11/CS50-googlesearch-lec0",
+        "deployed":true,
+     
+        "website":"https://ibz11.github.io/CS50-googlesearch-lec0/"
+    }
+    ,{
+        "title":"Fauxica Clothing website",
+        "image":"./assets/images/fauxica.png",
+        "deployed":true,
+        "code":"https://github.com/ibz11/fauxica",
+        "website":"https://ibz11.github.io/fauxica/"
+    }
+    
+    
+    
+                
+ ]

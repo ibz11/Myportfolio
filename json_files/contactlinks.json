@@ -1,0 +1,28 @@
+[
+{
+    "name":"Github",
+    "icon":"fa-brands fa-github",
+    "url":"https://github.com/ibz11"
+}
+,{
+    "name":"Gmail",
+    "icon":"fa-regular fa-envelope",
+    "url":"#Contact"
+},
+{
+    "name":"LinkedIn",
+    "icon":"fa-brands fa-linkedin",
+    "url":"https://www.linkedin.com/in/ibrahim-mohamed-abdi-958b6821b"
+},
+{
+    "name":"",
+    "icon":"",
+    "url":""
+}
+
+
+
+
+
+
+]

@@ -1,0 +1,91 @@
+
+<!---Projects  section----->
+<section style="height:240vh; color:white;background:rgb(22, 21, 21);" id="projects">
+  <div class="wrapper">
+    <div class="mt-5 text-center">
+        <h1 style="font-size:32px;color:rgb(4, 235, 43);">My Projects</h1>
+    </div>
+    <div class="mt-5 ml-4">
+        <h1 style="margin-left:22px;font-size:22px;color:rgb(4, 235, 43);">Front-end projects</h1>
+    </div>
+
+
+
+    <!--Cards-->
+    <div  class="mt-5 container text-center">
+    <div   class="row ">
+
+        <div class="m-1 hidden col-sm-3">
+    <div class="card bg-dark" style="width: 15rem;">
+        <img src="../assets/images/netflix.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Netflix Homepage </p>
+          <a href="https://github.com/ibz11/Netflix-homepage" style="border-color:rgb(4, 235, 43);color:rgb(4, 235, 43);;border-radius:none;border-width:1px;" class="m-3 btn btn-outline-success">View Code <i class="fa-sharp fa-regular fa-eye"></i></a>
+        </div>
+    </div>
+    </div>
+   
+    <div class="hidden col-sm-3">
+        <div class="m-1 card bg-dark" style="width: 15rem;">
+            <img src="../assets/images/googlelogin.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Google login form clone</p>
+              <a href="https://github.com/ibz11/google-login" style="border-color:rgb(4, 235, 43);color:rgb(4, 235, 43);;border-radius:none;border-width:1px;" class="m-3 btn btn-outline-success">View Code <i class="fa-sharp fa-regular fa-eye"></i></a>
+
+            </div>
+        </div>
+        </div>
+
+        <div class="hidden col-sm-3">
+            <div class="m-1 card bg-dark" style="width: 15rem;">
+                <img src="../assets/images/github-login.png" height="130" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Github login form clone</p>
+                  <a href="https://github.com/ibz11/github-login" style="border-color:rgb(4, 235, 43);color:rgb(4, 235, 43);;border-radius:none;border-width:1px;" class="m-3 btn btn-outline-success">View Code <i class="fa-sharp fa-regular fa-eye"></i></a>
+                </div>
+            </div>
+            </div>
+
+            <div class="hidden m-2 col-sm-3">
+              <div class="m-1 card bg-dark" style="width: 15rem;">
+                  <img src="../assets/images/googlehome.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Google home clone</p>
+                    <a href="https://github.com/ibz11/google-home" style="border-color:rgb(4, 235, 43);color:rgb(4, 235, 43);;border-radius:none;border-width:1px;" class="m-3 btn btn-outline-success">View Code <i class="fa-sharp fa-regular fa-eye"></i></a>
+                  </div>
+              </div>
+              </div>
+
+              <div class="hidden m-2 col-sm-3">
+                <div class="m-1 card bg-dark" style="width: 15rem;">
+                    <img src="../assets/images/googlehome.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Google home clone V2</p>
+                      <a href="https://github.com/ibz11/google-home" style="border-color:rgb(4, 235, 43);color:rgb(4, 235, 43);;border-radius:none;border-width:1px;" class="m-3 btn btn-outline-success">View Code <i class="fa-sharp fa-regular fa-eye"></i></a>
+                    </div>
+                </div>
+                </div>
+
+</div>
+</div>
+</div>   
+</div>
+
+
+
+
+
+      </div>
+
+
+
+      <div class="wrapper">
+    <div class="mt-5 ml-4">
+        <h1 style="margin-left:22px;font-size:42px;color:rgb(4, 235, 43);">Back-end projects</h1>
+    </div>
+    <div class="mt-5 text-center">
+<h1 >Will update soon.....</h1>
+</div>
+</div>
+
+    </section>
