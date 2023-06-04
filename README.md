@@ -1,6 +1,6 @@
 <h1>Portfolio website built using Vue JS CDN</h1>
 
-<a href="https://ibzportfolio.netlify.app/">Link to the website</a>
+<h2><a href="https://ibzportfolio.netlify.app/">Link to the website</a></h2>
 <h3>Make sure to have live server installed for the portfolio to work</h3>
 
 ![image](https://github.com/ibz11/Myportfolio/assets/90426909/65548ca7-222f-49c7-a60e-f0920999f80a)
