@@ -136,7 +136,7 @@ template:
 
 <div  class="mt-5 container text-center">
     <div class="mt-5 row">
-   <!--style="border:1px solid;border-color:white;"-->     
+  
       <div  class="col-12">
   
         <p style="font-size:25px;">This section will display languages learnt and frameworks learnt</p>
@@ -146,7 +146,7 @@ template:
 
 <div  class="mt-5 container text-center">
     <div class="mt-5 row">
-   <!--style="border:1px solid;border-color:white;"-->     
+
       <div  class=" col-6">
         <h1 style="font-size:32px;"><span style="color:rgb(4, 235, 43);">Front-end</span></h1>
         <ul :class="hidden" style="list-style:none;">
@@ -157,7 +157,7 @@ template:
       </div>
       <div  class=" col-6">
         <h1   style="font-size:32px;"> <span style="color:rgb(4, 235, 43);">Back-end</span></h1>
-        <ul :class="hidden "style="list-style:none;">
+        <ul :class="hidden" style="list-style:none;">
         <li v-for="skill in backend" style="font-size:23px;"><i  :class="skill.icons"></i> {{skill.name}}</li>
           </ul>
         
@@ -182,7 +182,7 @@ template:
        <!--style="border:1px solid;border-color:white;"-->     
           <div  class="col-6">
             <h1 style="font-size:32px;"><span style="color:rgb(4, 235, 43);">Other skills</span></h1>
-          <ul :class="hidden"style="list-style:none;">
+          <ul :class="hidden" style="list-style:none;">
           <li v-for="skill in other" style="font-size:23px;"><i  :class="skill.icons"></i> {{skill.name}}</li>
        
          

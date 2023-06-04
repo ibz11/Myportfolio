@@ -14,13 +14,13 @@ aboutMe:[
 template:
 `
 <!--About section-->
-<section style="height:135vh; color:white;background:rgb(35, 34, 34);" class="about"id="about">
+<section style="height:135vh; color:white;background:rgb(35, 34, 34);" class="about" id="about">
     
     <div  class="mt-5 container text-center">
         <div class="row">
  
           <div style="height:19vh; " class="col">
-            <img style="border-radius:6px;"height="145%" width="55%" src="assets/images/about.jpg" alt="">
+            <img style="border-radius:6px;" height="145%" width="55%" src="assets/images/about.jpg" alt="">
           </div>
         
         </div>
@@ -34,7 +34,7 @@ template:
      <!--style="border:1px solid;border-color:white;"-->     
         <div  class="col-12">
           <h1  style="font-size:36px;"> <span style="color:rgb(4, 235, 43);">About me</span></h1>
-          <p v-for="item of aboutMe"style="font-size:21px;">{{item.details }}</p>
+          <p v-for="item of aboutMe" style="font-size:21px;">{{item.details }}</p>
           
         </div>
 </div>
@@ -46,7 +46,7 @@ template:
 
           <div  class="mt-1 container text-center">
           
-             
+             </div>
                 </div>
                 <div class="flex">
                 
@@ -55,7 +55,7 @@ template:
   
             
                   <h2 style="font-size:22px;color:rgb(4, 235, 43);"> 2020 to Current</h2>
-                  <p style="font-size:30px">Currently Studying </br> BBIT at Strathmore University</p>
+                  <p style="font-size:30px">Currently Studying <br> BBIT at Strathmore University</p>
                 </div>
               </div>
               <div>
