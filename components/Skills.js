@@ -129,7 +129,7 @@ other() {
 
 
 template:
-`<section style="height:113vh; margin-top:10em; color:white;background:rgb(44, 43, 43);" id="skills">
+`<section style="height:153vh; margin-top:10em; color:white;background:rgb(44, 43, 43);" id="skills">
 <div class="mt-5 text-center">
     <h1 style="font-size:72px;color:rgb(4, 235, 43);"> My Skills <i class="fa-solid fa-screwdriver-wrench"></i> </h1>
 </div>
