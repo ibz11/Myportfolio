@@ -28,7 +28,7 @@ function(){
       <div class="mt-5 text-center">
         <h1 style="font-size:42px;color:rgb(4, 235, 43);">Contact Me</h1>
     </div>
-    <div style="margin-top:82px;"class="text-center">
+    <div style="margin-top:82px;" class="text-center">
     <a v-for="link of links"   :href="link.url">
             <i style="font-size:52px; margin-right:10px;color:rgb(4, 235, 43);" :class="link.icon"></i>
             </a>

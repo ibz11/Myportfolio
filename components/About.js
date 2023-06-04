@@ -49,11 +49,17 @@ template:
              
                 </div>
                 <div class="flex">
-                <div  class="hidden col-9">
+                
+                <div class="col-9">
+                <div  :class="hidden ">
+  
+            
                   <h2 style="font-size:22px;color:rgb(4, 235, 43);"> 2020 to Current</h2>
                   <p style="font-size:30px">Currently Studying </br> BBIT at Strathmore University</p>
                 </div>
               </div>
+              <div>
+</div>
                 </div>
               
 

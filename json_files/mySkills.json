@@ -1,0 +1,85 @@
+[
+
+{
+"name":"HTML",
+"category":"frontend",
+"icons":"fa-brands fa-html5"
+},
+
+{
+"name":"CSS",
+"category":"frontend",
+"icons":"fa-brands fa-css3-alt"
+},
+
+{
+"name":"JAVASCRIPT",
+"category":"frontend",
+"icons":"fa-brands fa-js"
+},
+
+{
+"name":"BOOTSTRAP",
+"category":"frontend",
+"icons":"fa-brands fa-js"
+}
+
+,
+{
+"name":"Vue JS",
+"category":"frontend",
+"icons":"fa-brands fa-vuejs"
+}
+,
+{
+"name":"PYTHON",
+"category":"backend",
+"icons":"fa-brands fa-python"
+}
+,
+{
+"name":"PHP",
+"category":"backend",
+"icons":"fa-brands fa-php"
+}
+,
+{
+"name":"SQL",
+"category":"backend",
+"icons":"fa-solid fa-database"
+}
+ 
+,
+{
+"name":"LARAVEL",
+"category":"technologies",
+"icons":"fa-brands fa-laravel"
+}
+
+,
+{
+"name":"FLASK",
+"category":"technologies",
+"icons":"fa-brands fa-python"
+}
+,
+{
+"name":"DJANGO",
+"category":"technologies",
+"icons":"fa-brands fa-python"
+}
+,
+{
+"name":"ANDROID-KOTLIN",
+"category":"technologies",
+"icons":"fa-brands fa-android"
+}
+
+,
+{
+"name":"MS OFFICE",
+"category":"other",
+"icons":"fa-brands fa-microsoft"
+}
+
+]
