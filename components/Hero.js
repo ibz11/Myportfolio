@@ -4,7 +4,30 @@ data(){
 return{
    role:"Developer",
    file_url:"./json_files/contactlinks.json",
-   links:null
+   links:null,
+
+   pages:[
+    {
+      "page":"Home",
+      "link":"index.html"
+    },
+    {
+      "page":"About",
+      "link":"about.html"
+    },
+
+    {
+        "page":"Projects",
+        "link":"projects.html"
+      },
+
+      {
+        "page":"Contact Me",
+        "link":"contact.html"
+      }
+  ]
+
+
 }
 }
 ,
@@ -32,14 +55,20 @@ template:
           <h1 id="text" style="font-size:68px;color:rgb(4, 235, 43);"></h1>
           <p style="font-size:28px;">{{ role }}</p>
           <button style="border-color:rgb(4, 235, 43);color:rgb(4, 235, 43);;border-radius:none;border-width:3px;" class=" m-3 btn btn-outline-success">Resume</button>
-          <a href="#Contact" style="border-color:rgb(224, 229, 225);color:rgb(4, 235, 43);;border-radius:none;border-width:3px;" class="btn btn-outline-light">Contact me</a>
+         
+
+          <div  style="margin-top:22px;" class="text-center">
+           <a v-for="item in pages"  style="font-size:15px; margin-right:10px;color:rgb(4, 235, 43);" class="badge bg-success" :href="item.link">{{item.page}}</a>
+          
+          </div>
         
-          <div  style="margin-top:82px;" class="text-center">
+          <div  style="margin-top:102px;" class="text-center">
             <a v-for="link of links"   :href="link.url">
             <i style="font-size:52px; margin-right:10px;color:rgb(4, 235, 43);" :class="link.icon"></i>
             </a>
+           </div>
+
            
-        </div>
         
         </div>
        

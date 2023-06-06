@@ -1,0 +1,80 @@
+#Contact{
+    margin-top:8em;
+    background-color: black;
+    height:80vh; 
+    color:white;
+  }
+
+
+/* Style inputs */
+input[type=text],input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #05f709;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color:white;
+    background-color: black;
+  }
+  
+  input[type=submit] {
+    background-color:  #26bf29;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #29fa33;
+  }
+  
+  /* Style the container/contact section */
+  .contact-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .contact-items{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+    .contact-items{
+    
+        display:flex;
+        flex-direction: column;
+      }
+  }
+
+  @media screen and (max-width: 420px) {
+
+  #Contact{
+height:157vh;
+  }
+}

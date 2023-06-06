@@ -41,7 +41,7 @@ mounted:function(){
 template:
 
 `
-<section id="projects" style="margin-top:12em;"class="portfolio-mf sect-pt4 route">
+<section id="projects" style="background:black;margin-top:2em;"class="portfolio-mf sect-pt4 route">
 
 
 

@@ -2,7 +2,30 @@ app.component('contact-section',{
     data() {
         return {
           file_url:"./json_files/contactlinks.json",
-          links:null
+          links:null,
+          image:"./assets/images/hero.jpg",
+          contacts:[
+            {
+              "name":"Github",
+              "icon":"fa-brands fa-github",
+              "url":"https://github.com/ibz11"
+          },
+          {
+            "name":"ibramiabdi.ke@gmail.com",
+            "icon":"fa-regular fa-envelope",
+            "url":"#Contact"
+        },
+        {
+            "name":"LinkedIn",
+            "icon":"fa-brands fa-linkedin",
+            "url":"https://www.linkedin.com/in/ibrahim-mohamed-abdi-958b6821b"
+        },
+        {
+          "name":"0704736051",
+          "icon":"fas fa-phone",
+          "url":"https://www.linkedin.com/in/ibrahim-mohamed-abdi-958b6821b"
+      },
+          ]
         }
     },   
 //getting data from local json file
@@ -22,48 +45,43 @@ function(){
 
     template:
 
-    `  <section style="height:113vh; color:white;background:rgb(44, 43, 43);" id="Contact">
-    <div class="wrapper">
+    `
+  <section style=""  id="Contact">
     
-      <div class="mt-5 text-center">
-        <h1 style="font-size:42px;color:rgb(4, 235, 43);">Contact Me</h1>
-    </div>
-    <div style="margin-top:82px;" class="text-center">
-    <a v-for="link of links"   :href="link.url">
-            <i style="font-size:52px; margin-right:10px;color:rgb(4, 235, 43);" :class="link.icon"></i>
-            </a>
-    </div>
-    <div class="flex">
-    
-    
-    <div class="form">
-    
-    <form>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-     
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Message</label>
-       </div>
-       <div class="mb-3">
-        <textarea name="" class="textarea" id="" cols="30" rows="10">
-    
-        </textarea>
-      </div>
-      <div class="flex">
-      <button type="submit"  class="submit-btn m-3 btn btn-outline-success">Submit</button>
-      </div>
+<div class="container">
+<div style=" text-align:center">
+
+  <h3 style="color:rgb(4, 235, 43);"class="title-a">
+  Contact ME
+</h3>
+  <p >Leave me a message</p>
+<div class="contact-items">
+  <a v-for="item in contacts" style="margin:.4em;color:#26bf29;" :href="item.url"><i :class="item.icon"></i> {{item.name}}</a>
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img :src="image" style="width:100%">
+  </div>
+  <div class="text-light column">
+    <form action="https://formsubmit.co/fb8a599c78f7c3e33bb158bf1b161561"method="POST" >
+    <input type="text" name="_honey" style="display:none">
+    <input type="hidden" name="_next" value="https://ibzportfolio.netlify.app//thanks.html">
+      <label for="fname">Your Names</label>
+      <input type="text" id="fname" name="names" placeholder="Your names..">
+      <label for="fname">Email</label>
+      <input type="email" id="fname" name="email" placeholder="Your names..">
+      <label for="lname">Subject</label>
+      <input type="text" id="lname" name="subject" placeholder="Subject..">
+
+      <label for="subject">Content</label>
+      <textarea id="subject" name="content" placeholder="Write something.." style="height:170px"></textarea>
+      <input type="submit" value="Submit">
     </form>
-    </div>
-    
-    </div>
-    
-    
-    
-    
-    </div>
+  </div>
+</div>
+</div>
+
     
     
     

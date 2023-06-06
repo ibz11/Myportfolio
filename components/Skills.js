@@ -129,70 +129,44 @@ other() {
 
 
 template:
-`<section style="height:153vh; margin-top:10em; color:white;background:rgb(44, 43, 43);" id="skills">
-<div class="mt-5 text-center">
-    <h1 style="font-size:72px;color:rgb(4, 235, 43);"> My Skills <i class="fa-solid fa-screwdriver-wrench"></i> </h1>
-</div>
+`
 
-<div  class="mt-5 container text-center">
-    <div class="mt-5 row">
-  
-      <div  class="col-12">
-  
-        <p style="font-size:25px;">This section will display languages learnt and frameworks learnt</p>
-        
-      </div>
-</div>
+<section id="skills" style="background:black;" class="services-mf pt-5 route">
+ <div class="container">
+   <div class="row">
+     <div class="col-sm-12">
+       <div class="title-box text-center">
+         <h3 style="color:rgb(4, 235, 43);" class="title-a">
+           My Skills
+         </h3>
+         <p style="color:white;" class="subtitle-a">
+         This sections covers the skills I have learnt. Click the button below to check projects
+         </p>
+         <a href="projects.html"style="border-color:rgb(4, 235, 43);color:rgb(4, 235, 43);;border-radius:none;border-width:3px;" class=" m-3 btn btn-outline-success">My Projects</a>
+         <div style="background:rgb(4, 235, 43);" class="line-mf"></div>
+       </div>
+     </div>
+   </div>
 
-<div  class="mt-5 container text-center">
-    <div class="mt-5 row">
+   <div class="row">
 
-      <div  class=" col-6">
-        <h1 style="font-size:32px;"><span style="color:rgb(4, 235, 43);">Front-end</span></h1>
-        <ul :class="hidden" style="list-style:none;">
-      <li v-for="skill in frontend" style="font-size:23px;"><i  :class="skill.icons"></i> {{skill.name}}</li>
-   
-    </ul>
-        
-      </div>
-      <div  class=" col-6">
-        <h1   style="font-size:32px;"> <span style="color:rgb(4, 235, 43);">Back-end</span></h1>
-        <ul :class="hidden" style="list-style:none;">
-        <li v-for="skill in backend" style="font-size:23px;"><i  :class="skill.icons"></i> {{skill.name}}</li>
-          </ul>
-        
-      </div>
-</div>
+     <div v-for="skill in skills" class="col-md-4">
+       <div class="service-box">
+         <div class="service-ico">
+           <span class="ico-circle"><i :class="skill.icons"></i></span>
+         </div>
+         <div class="service-content">
+           <h2 class="s-title">{{skill.name}}</h2>
+           <p class="s-description text-center">
+             {{skill.category}}
+          
+           </p>
 
-
-<div  class="mt-5 container text-center">
-    <div class="mt-5 row">
-   <!--style="border:1px solid;border-color:white;"-->     
-      <div  class="col-6">
-        <h1 style="font-size:32px;"><span style="color:rgb(4, 235, 43);">Technologies</span></h1>
-      <ul :class="hidden" style="list-style:none;">
-      
-      <li v-for="skill in technologies" style="font-size:23px;"><i  :class="skill.icons"></i> {{skill.name}}</li>
+         </div>
+       </div>
+     </div>
      
-     
-    </ul>
-        
-      </div>
-   
-       <!--style="border:1px solid;border-color:white;"-->     
-          <div  class="col-6">
-            <h1 style="font-size:32px;"><span style="color:rgb(4, 235, 43);">Other skills</span></h1>
-          <ul :class="hidden" style="list-style:none;">
-          <li v-for="skill in other" style="font-size:23px;"><i  :class="skill.icons"></i> {{skill.name}}</li>
-       
-         
-         
-        </ul>
-            
-          </div>
-          </div>
-
-</section>
-<!---End of skills section-->`
+ </div>
+</section>`
 
 })
