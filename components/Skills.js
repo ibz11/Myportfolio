@@ -31,9 +31,9 @@ app.component('skills',{
         
         ,
         {
-        "name":"Vue JS",
+        "name":"React",
         "category":"frontend",
-        "icons":"fa-brands fa-vuejs"
+        "icons":"fa-brands fa-react"
         }
         ,
         {
@@ -80,12 +80,12 @@ app.component('skills',{
         "icons":"fa-brands fa-android"
         }
         
-        ,
-        {
-        "name":"MS OFFICE",
-        "category":"other",
-        "icons":"fa-brands fa-microsoft"
-        }
+        // ,
+        // {
+        // "name":"MS OFFICE",
+        // "category":"other",
+        // "icons":"fa-brands fa-microsoft"
+        // }
         
         ]
 

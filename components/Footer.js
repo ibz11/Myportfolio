@@ -12,7 +12,7 @@ mounted:function(){
     {
 
         axios.get(this.file_url).then((res)=>{
-            console.log(res)
+            // console.log(res)
             this.links=res.data
         }).catch((err)=>{
             console.log(err)

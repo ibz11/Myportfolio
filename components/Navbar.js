@@ -1,6 +1,8 @@
 app.component('nav-bar', {
     data() {
+   
         return {
+          isLightMode: true,
             links:[
               {
                 "page":"Home",
@@ -23,13 +25,26 @@ app.component('nav-bar', {
             ]
         
           }
+
+
+
+
     }, 
+
+    methods:{
+
+      lightMode(){
+       this.isLightMode = !this.isLightMode;
+       console.log(this.isLightMode)
+    
+       }
+     },
  
 
 template:
  `<!-- Navbar -->
 
- <nav style="background:rgb(4, 4, 4);" class="navbar navbar-expand-lg fixed-top">
+ <nav :class="{ 'light-mode': isLightMode }"  style="background:rgb(4, 4, 4);" class="navbar navbar-expand-lg fixed-top">
    <div   class="container-fluid">
      <a  style="color:rgb(4, 235, 43);" class="navbar-brand" href="index.html"><i class="fa-solid fa-laptop-code"></i> Ibrahim/ Portfolio</a>
      <button style="background:rgb(4, 235, 43);" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,6 +57,9 @@ template:
            <a  style="color:rgb(4, 235, 43);"  aria-current="page" class="nav-link active" :href="item.link">{{item.page}}</a>
          </li>
 
+<!--         <div>
+<button style="background: black;  color:white; border:1px solid green; border-radius:20%;" @click="lightMode"><i class="fa fa-sun"></i></button>
+</div>-->
       
        </ul>
       

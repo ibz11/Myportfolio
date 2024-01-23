@@ -37,7 +37,7 @@ mounted:function(){
     {
 
         axios.get(this.file_url).then((res)=>{
-            console.log(res)
+            // console.log(res)
             this.links=res.data
         }).catch((err)=>{
             console.log(err)
@@ -54,7 +54,9 @@ template:
         <div class="hero-text">
           <h1 id="text" style="font-size:68px;color:rgb(4, 235, 43);"></h1>
           <p style="font-size:28px;">{{ role }}</p>
-          <button style="border-color:rgb(4, 235, 43);color:rgb(4, 235, 43);;border-radius:none;border-width:3px;" class=" m-3 btn btn-outline-success">Resume</button>
+          <a 
+          href="https://drive.google.com/file/d/1aSvBVBxR5lsPUZ-w5YM7x6OrNUBarnlk/view"
+          style="border-color:rgb(4, 235, 43);color:rgb(4, 235, 43);;border-radius:none;border-width:3px;" class=" m-3 btn btn-outline-success">Resume</a>
          
 
           <div  style="margin-top:22px;" class="text-center">

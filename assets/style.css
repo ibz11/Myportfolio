@@ -4,6 +4,18 @@ body, html {
     scroll-behavior: smooth;
 }
 
+/* Light mode styles */
+.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Dark mode styles (optional) */
+/* Add more styles for dark mode as needed */
+.dark-mode {
+  background:rgb(4, 4, 4);
+  color: #fff;
+}
 
 .wrapper{
   max-width:1200px;
